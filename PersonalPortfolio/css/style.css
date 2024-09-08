@@ -1,6 +1,6 @@
 *{
     background-color: black;
-    color: rgb(13, 183, 129);
+    color:whitesmoke;
    
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -233,7 +233,7 @@ button{
        
      }
      button{
-        background-color: blue;
+        background-color:rgba(0, 128, 0, 0.408);
         color: whitesmoke;
         padding: 10px;
      }
@@ -284,4 +284,10 @@ button{
     background-color: inherit;
     /* padding: 10px; */
     font-size: 30px;
+    color: green;
+ }
+
+ p{
+   color: rgba(245, 245, 245, 0.292);
+   font-style: italic;
  }
