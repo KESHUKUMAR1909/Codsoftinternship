@@ -1,8 +1,12 @@
 *{
     background-color: black;
     color: rgb(13, 183, 129);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
     box-sizing:border-box ;
+    scroll-behavior: smooth;
 }
 .navbar{
     display: flex;
@@ -12,7 +16,6 @@
     border-radius: 10px;
     height: 50px;
     padding: 10px;  
-    /* border: 2px solid grey; */
     position: sticky;
    
     z-index: 1000;
@@ -37,7 +40,7 @@ a{
     display: flex;
     width: 100%;
     height: 100%;
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     border-radius: 10px;
 }
 .about{
@@ -96,12 +99,12 @@ button{
 
 /* Now giving css to the About Section */
 #About{
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     border-radius:10px;
 }
 #About h1{
@@ -109,39 +112,61 @@ button{
 }
 .aboutme{
     font-size: 20px;
+    width: 100%;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 
 }
+.about1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.about2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
 .aboutme h3{
-    width: 30%;
-    background-color: rgba(128, 128, 128, 0.121);
+    width: 40%;
+    /* background-color: rgba(128, 128, 128, 0.121); */
     padding:4px;
     border-radius: 5px ;
-    box-shadow: 2px 2px 2px whitesmoke;
+    /* box-shadow: 2px 2px 2px whitesmoke; */
 }
 .aboutme h3 a{
      text-decoration: none;
-}
-.aboutme .long{
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    padding: 10px 20px 10px 20px;
+     background-color: inherit;
+     
 
 }
-
-
-
 /* Skills section css */
 #Skills{
     margin-top: 10px;
     display: flex;
+    /* flex-direction: column; */
     flex-wrap: wrap;
-    border: 2px solid grey;
-    justify-content: space-evenly;
+    /* border: 2px solid grey; */
+    justify-content: center;
     padding: 10px;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 30px;
+}
+.cardholder{
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: space-evenly;
+    width: 100%;
 }
 .card1{
     display: flex;
@@ -162,7 +187,61 @@ button{
    align-items: center;
 
 }
+/* Projects */
+    #Project{
+        margin-top: 10px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    .projectheading{
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .projectsection{
+        display: flex;
+        flex-wrap: wrap;
+      
+        width: 100%;
+        height:100%;
+        gap:10px;
+        /* background-color:; */
+    
+        font-size: 25px;
+        justify-content: center;
+       
+    }
 
+     .project{
+        background-color: rgba(128, 128, 128, 0.367)(128, 128, 128, 0.033);
+    
+        border-radius: 20px;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid grey;
+        padding: 10px;
+     }
+     .project:hover{
+        opacity:0.8;
+     }
+     .more{
+        font-size: 20px;
+       
+     }
+     button{
+        background-color: blue;
+        color: whitesmoke;
+        padding: 10px;
+     }
+     button:hover{
+        background-color: rgb(85, 85, 189);
+     }
+    
+   
 
 /* NOW giving Css to the Social media */
  #SocialMedia{
@@ -191,6 +270,7 @@ button{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    flex-wrap: wrap;
  }
  .webimages{
     width: 100%;
