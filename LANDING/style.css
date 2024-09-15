@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;;
+    scroll-behavior: smooth;
+
+}
+body{
+    width: 100vw;
+}
+.main{
+    background: url('images/image1.webp');
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    
+   
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    /* background-color: whitesmoke; */
+    height: 100px;
+    
+   
+}
+.companyname{
+    width: 25%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.list{
+    width: 75%;
+     display: flex;
+     justify-content:space-evenly ;
+}
+ul{
+    display: flex;
+    gap: 10px;
+    width:75%;
+    justify-content: space-evenly;
+}
+
+ul li{
+    list-style: none;
+    font-size: 20px;
+    }
+ul li a{
+    text-decoration: none;
+}
+.content{
+    width: 60%;
+    position:absolute;
+    top: 35% ;
+    left:20%;
+    font-size: 20px;
+    font: bold;
+    
+}
+.center{
+    text-align: center;
+}
+.content p {
+    font-size: 20px;
+    font: bolder;
+}
+
+
+/* css to sevrices section */
+.head1{
+    font-size: 30px;
+
+}
+#Services{
+    background-color: whitesmoke;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+
+/* giving css to cards section */
+.card1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height:350px;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+}
+.card1 .text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    font-size: 20px;
+}
+.text p{
+      display: flex;
+      justify-content: center;
+ 
+}
+
+.image img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height:250px;
+}
+
+
+/* Projects */
+#Projects{
+    margin-top: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: fixed; */
+}
+.head2{
+    font-size: 40px;
+}
+.photogallery {
+    width: 85%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 10px; /* Optional: Adjust gap between grid items */
+}
+
+.photogallery div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ background-size: cover;
+}
+.imagegrid img{
+    border-radius: 20px;
+    width: 100%;
+    height:250px;
+}
+
+
+/* about us section */
+#Aboutus{
+    margin-top: 20px;
+    display: flex;
+    background-color: whitesmoke;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+
+    
+}
+.aboutimage{
+      width: 50%;
+      height:100%;
+
+}
+.aboutimage img{
+    background-size: contain;
+    width: 100%;
+}
+.abouttext{
+    display: flex;
+    padding: 20px;
+    padding-top: 2px;
+    
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 40%;
+}
+
+.imageaboutus img{
+    height: 80px;
+    width: 100px;
+    border-radius: 100%;
+    border: 1px solid black;
+
+}
+.supportcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* css to the contact us page
+ */
+ #Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+ }
+ .ceo h1{
+    font-size: 40px;
+ }
+ .ceo img{
+    width: 300px ;
+    height: 300px;
+    border-radius: 100%;
+ }
+ .text1{
+    padding: 30px;
+    font-size: 20px;
+ }
+ .contact{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+ }
+ .contactimg img {
+    width: 80px;  
+    height: 80px;
+    border-radius: 100%;
+
+ }
+ button{
+    background-color:beige ;
+    padding: 10px;
+    border-radius:100px;
+ }
